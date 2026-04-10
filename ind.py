@@ -9,3 +9,5 @@ s="programmging"
 # print(s.index("g"))
 # print(s.index("g",4,9))
 print(s.index("i",3))
+print(s.index("r",2,8))
+

@@ -1,7 +1,8 @@
-print('this is "python"')
-# print('this is 'python'')
-print("this is 'java'")
-# print('this is 'java'')
+# print('this is "python"')
+# # print('this is 'python'')
+# print("this is 'java'")
+# # print('this is 'java'')\
+
 
 print("this is \"c\"")
 print('this is \'c++\'')

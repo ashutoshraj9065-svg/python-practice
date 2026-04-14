@@ -16,10 +16,22 @@
 
 
 
-lst= list(map(int,input("enter a list number").split()))
-user=int(input("enter a number"))
-if(user in lst):
-    print(lst.index(user))
-else:
-    print("not found")
+# lst= list(map(int,input("enter a list number").split()))
+# user=int(input("enter a number"))
+# if(user in lst):
+#     print(lst.index(user))
+# else:
+#     print("not found")
 
+
+# lst2=[10,20,30,40,60,50]
+# user=int(input("enter a number"))
+# if(user in lst2):
+#     print(lst2.index(user))
+# else:
+#     print("not valid")
+
+
+user=input("enter a slice")
+ashu=user[-3:-7:-1]
+print(ashu)

@@ -48,8 +48,8 @@ print("Welcome ",x)
 # print(d.setdefault('city','Bhopal'))
 # print(d)
 
-# d1 = {'x':10,'y':20,'z':30}
-# d.update(d1)
-# print(d)
-# d["name"]="c"
-# print(d)
+d1 = {'x':10,'y':20,'z':30}
+d.update(d1)
+print(d)
+d["name"]="c"
+print(d)

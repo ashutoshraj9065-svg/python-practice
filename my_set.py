@@ -58,7 +58,7 @@
 s1={10,20,30,"java","python","c++"}
 f=frozenset(s1)
 # print(type(f))
-s2={10,20,30,"java"}
+s2={10,20,30,"java","python"}
 f1=frozenset(s2)
 print(f.intersection(f1))
 print(f.difference(f1))

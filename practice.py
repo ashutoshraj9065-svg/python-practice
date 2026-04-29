@@ -41,9 +41,9 @@
 #     i=i+1
 
 l=[2,4,6,8,10]
-sum=0
+add=0
 for num in l:
-    sum=sum+num
-print("sum is ",sum)
+    add=add+num
+print("sum is ",add)
 
 

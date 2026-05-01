@@ -52,25 +52,42 @@
 # else:
 #     print("odd number",n)
 # # qno 2
-n1=int(input("enter a number"))
-n2=int(input("enter a number"))
-n3=int(input("enter a number"))
+# n1=int(input("enter a number"))
+# n2=int(input("enter a number"))
+# n3=int(input("enter a number"))
 
-if n1>=n2 and n1>=n3:
-    print("n1 number is a greater then n2 and n3",n1)
-elif n2>=n1 and n2>=n3:
-    print(f"n2 number is {n2} greater then n1 and n3")
+# if n1>=n2 and n1>=n3:
+#     print("n1 number is a greater then n2 and n3",n1)
+# elif n2>=n1 and n2>=n3:
+#     print(f"n2 number is {n2} greater then n1 and n3")
 
-else:
-    print("n3 is a greater then n1 and n2",n3)
+# else:
+#     print("n3 is a greater then n1 and n2",n3)
 
-# qno 3
-user=int(input("enter a value"))
-if user==0:
-    print("number is a zero")
-elif user>0:
-    print("number is a positive number")
-else:
-    print("number is a negative number")
+# # qno 3
+# user=int(input("enter a value"))
+# if user==0:
+#     print("number is a zero")
+# elif user>0:
+#     print("number is a positive number")
+# else:
+#     print("number is a negative number")
+
+i=1
+while i<=10:
+    print(i)
+    i=i+1
+
+
+
+n=int(input("enter a number"))
+reverse=0
+while n>0:
+    digit=n%10
+    reverse=reverse*10+digit
+    n=n//10
+print("reverse",reverse)
+print("hello")
+    
 
 

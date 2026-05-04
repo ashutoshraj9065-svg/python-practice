@@ -73,20 +73,50 @@
 # else:
 #     print("number is a negative number")
 
-i=1
-while i<=10:
-    print(i)
-    i=i+1
+# i=1
+# while i<=10:
+#     print(i)
+#     i=i+1
 
 
 
-n=int(input("enter a number"))
+# n=int(input("enter a number"))
+# reverse=0
+# while n>0:
+#     digit=n%10
+#     reverse=reverse*10+digit
+#     n=n//10
+# print("reverse",reverse)
+
+use=int(input("enter  value"))
+count=0
+while use>0:
+    use=use//10
+    count=count+1
+print("user count",count)
+
+user=int(input("enter a number"))
+original=user
 reverse=0
-while n>0:
-    digit=n%10
+
+while user>0:
+    digit=user%10
     reverse=reverse*10+digit
-    n=n//10
-print("reverse",reverse)
+    user=user//10
+if original==reverse:
+    print("planidrom number")
+else:
+    print("not plandirom number")
+
+ashu=int(input("enter a valiue"))
+fact=1
+
+while ashu>0:
+    digit=ashu%10
+    fact=fact*digit
+    ashu=ashu//10
+print("factorial",fact)
+    
 
     
 

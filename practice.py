@@ -88,35 +88,69 @@
 #     n=n//10
 # print("reverse",reverse)
 
-use=int(input("enter  value"))
+# use=int(input("enter  value"))
+# count=0
+# while use>0:
+#     use=use//10
+#     count=count+1
+# print("user count",count)
+
+# user=int(input("enter a number"))
+# original=user
+# reverse=0
+
+# while user>0:
+#     digit=user%10
+#     reverse=reverse*10+digit
+#     user=user//10
+# if original==reverse:
+#     print("planidrom number")
+# else:
+#     print("not plandirom number")
+
+# ashu=int(input("enter a valiue"))
+# fact=1
+
+# while ashu>0:
+#     digit=ashu%10
+#     fact=fact*digit
+#     ashu=ashu//10
+# print("factorial",fact)
+
+n=int(input("enter a number"))
+sum=0
+while n>0:
+    digit=n%10
+    if digit%2==0:
+        
+        sum=sum+digit
+    n=n//10
+print("sum of even number", sum)
+
+number=int(input("enter a number"))
 count=0
-while use>0:
-    use=use//10
-    count=count+1
-print("user count",count)
+while number>0:
+    d=number%10
+    if d%2!=0:
+        count=count +1
+    number=number//10
+print("count",count)
 
-user=int(input("enter a number"))
-original=user
-reverse=0
+a=int(input("enter a value"))
+all_even=True
 
-while user>0:
-    digit=user%10
-    reverse=reverse*10+digit
-    user=user//10
-if original==reverse:
-    print("planidrom number")
+while a>0:
+    d=a%10
+    if d%2!=0:
+        all_even=False
+        break
+    a=a//10
+if all_even:
+    print("all even")
 else:
-    print("not plandirom number")
-
-ashu=int(input("enter a valiue"))
-fact=1
-
-while ashu>0:
-    digit=ashu%10
-    fact=fact*digit
-    ashu=ashu//10
-print("factorial",fact)
+    print("all not even")
     
+
 
     
 

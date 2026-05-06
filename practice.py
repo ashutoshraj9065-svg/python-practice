@@ -117,38 +117,70 @@
 #     ashu=ashu//10
 # print("factorial",fact)
 
-n=int(input("enter a number"))
-sum=0
-while n>0:
-    digit=n%10
-    if digit%2==0:
+# n=int(input("enter a number"))
+# sum=0
+# while n>0:
+#     digit=n%10
+#     if digit%2==0:
         
-        sum=sum+digit
-    n=n//10
-print("sum of even number", sum)
+#         sum=sum+digit
+#     n=n//10
+# print("sum of even number", sum)
 
-number=int(input("enter a number"))
-count=0
-while number>0:
-    d=number%10
-    if d%2!=0:
-        count=count +1
-    number=number//10
-print("count",count)
+# number=int(input("enter a number"))
+# count=0
+# while number>0:
+#     d=number%10
+#     if d%2!=0:
+#         count=count +1
+#     number=number//10
+# print("count",count)
 
-a=int(input("enter a value"))
-all_even=True
+# a=int(input("enter a value"))
+# all_even=True
 
+# while a>0:
+#     d=a%10
+#     if d%2!=0:
+#         all_even=False
+#         break
+#     a=a//10
+# if all_even:
+#     print("all even")
+# else:
+#     print("all not even")
+
+
+
+# n= int(input("enter a number"))
+# x=n
+# y=n
+# sum=0
+# count=0
+# while n>0:
+#     count=count+1
+#     n=n//10
+# while x>0:
+#     ld=x%10
+#     sum+=ld**count
+#     x=x//10
+
+# if y==sum:
+#     print("it is a arms strong number")
+# else:
+#     print("not arms strong number")
+a=int(input("enter a number"))
+original=a
+reverse=0
 while a>0:
-    d=a%10
-    if d%2!=0:
-        all_even=False
-        break
-    a=a//10
-if all_even:
-    print("all even")
+   d=a%10
+   reverse=reverse*10+d
+   a=a//10
+if original==reverse:
+    print("planidrom number")
 else:
-    print("all not even")
+    print("not planidrom number")
+            
     
 
 

@@ -167,19 +167,36 @@
 
 # if y==sum:
 #     print("it is a arms strong number")
+# # else:
+# #     print("not arms strong number")
+# a=int(input("enter a number"))
+# original=a
+# reverse=0
+# while a>0:
+#    d=a%10
+#    reverse=reverse*10+d
+#    a=a//10
+# if original==reverse:
+#     print("planidrom number")
 # else:
-#     print("not arms strong number")
-a=int(input("enter a number"))
-original=a
-reverse=0
-while a>0:
-   d=a%10
-   reverse=reverse*10+d
-   a=a//10
-if original==reverse:
-    print("planidrom number")
-else:
-    print("not planidrom number")
+#     print("not planidrom number")
+
+n= int(input("enter a number"))
+i=1
+for i in range (1,n+1):
+    print("*"*i+" "*(n-i))
+
+n= int(input("enter a number"))
+for j in range(5):
+    for i in range(1,n+1):
+        print("*",end=" ")
+    print()
+
+n=int(input("enter a number"))
+for i in range(1, n+1):
+    for j in range (1,i+1):
+        print(j, end=" ")
+    print()
             
     
 

@@ -211,6 +211,11 @@ def greet():
 # print(greet())
 x=greet()
 print(x)
+
+def add(x,y,z):
+    sum=x+y+z
+    return sum
+add(10,20,30)
             
     
 

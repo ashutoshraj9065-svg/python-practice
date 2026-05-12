@@ -198,12 +198,19 @@
 #         print(j, end=" ")
 #     print()
 
-n = int(input("enter a number: "))
+# n = int(input("enter a number: "))
 
-for i in range(n, 0, -1):
-    for j in range(65, 65 + i):
-        print(chr(j), end=" ")
-    print()
+# for i in range(n, 0, -1):
+#     for j in range(65, 65 + i):
+#         print(chr(j), end=" ")
+#     print()
+
+def greet():
+    print("welcome to my page")
+# greet()
+# print(greet())
+x=greet()
+print(x)
             
     
 

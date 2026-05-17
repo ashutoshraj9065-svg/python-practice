@@ -27,13 +27,13 @@
 #         x=x+2
 #     print()
 
-# n=int(input("enter a number"))
-# x="A"
-# for i in range(n,0,-1):
-#     for j in range(1,i+1):
-#         print(x,end=" ")
-#         x=chr(ord(x)+1)
-#     print()
+n=int(input("enter a number"))
+x="A"
+for i in range(n,0,-1):
+    for j in range(1,i+1):
+        print(x,end=" ")
+        x=chr(ord(x)+1)
+    print()
 
 # q no 4
 
@@ -52,8 +52,13 @@
 #     print("not prime")
 
 # qno 5
-# sports=["cricket","football","hockey","football","ches"]
+sports=["cricket","football","hockey","football","ches"]
 # print("football",sports.count("football"),"time")
+count=0
+for i in sports:
+    if i=="football":
+        count=count+1
+print("football appers",count)    
         
 
 # qno 6

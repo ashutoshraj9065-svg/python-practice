@@ -48,11 +48,21 @@ while temp>0:
     d=temp%10
     sum=sum+d**3
     temp=temp//10
-    print()
+    
 if sum==n:
     print("armsstrong")
 else:
     print("not armsstrong")
+
+def large():
+    largestt=[10,30,2,40,50,20]
+    largestt.sort(reverse=True)
+    return largestt[0]
+a=large()
+print("largest number",a)
+print("largest number")
+print("same number")
+
 
 
 

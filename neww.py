@@ -93,3 +93,9 @@ n=int(input("enter a number "))
 a=fact(n)
 print(a)
 
+n=input("enter a string")
+rev=""
+for i in n:
+    rev=i+rev
+print(rev)
+

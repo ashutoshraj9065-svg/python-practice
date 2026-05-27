@@ -99,3 +99,13 @@ for i in n:
     rev=i+rev
 print(rev)
 
+n=input("enter a string")
+orginal=n
+rev=""
+for i in n:
+    rev=i+rev
+if rev==orginal:
+    print("planidrom number")
+else:
+    print("not planidrom")
+

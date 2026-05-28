@@ -63,39 +63,72 @@
 # print("largest number")
 # print("same number")
 
-# qno 1 
+# # qno 1 
+# n=int(input("enter a number"))
+# original=n
+# reverse=0
+
+# while n>0:
+#     digit=n%10
+#     reverse=reverse*10+digit
+#     n=n//10
+# if original==reverse:
+#     print("planidrom ")
+# else:
+#     print("not planidrom")
+
+# l1=[1,2,3,4,5,6,7]
+# count=0
+# for i in l1:
+#     if i%2==0:
+#         count=count+1
+# print(count)       
+
+# def fact(n):
+#     fact1=1
+#     for i in range(1,n+1):
+#         fact1=fact1*i
+#     return fact1
+# n=int(input("enter a number "))
+# a=fact(n)
+# print(a)
+
+# n=input("enter a string")
+# rev=""
+# for i in n:
+#     rev=i+rev
+# print(rev)
+
 n=int(input("enter a number"))
-original=n
-reverse=0
+for i in range (1,n+1):
+    if i==5:
+        continue
+    print("print i",i)
 
-while n>0:
-    digit=n%10
-    reverse=reverse*10+digit
-    n=n//10
-if original==reverse:
-    print("planidrom ")
-else:
-    print("not planidrom")
-
-l1=[1,2,3,4,5,6,7]
+n=input("enter a string ")
+vo="a","e","i","o","u"
 count=0
-for i in l1:
-    if i%2==0:
-        count=count+1
-print(count)       
-
-def fact(n):
-    fact1=1
-    for i in range(n-1):
-        fact1=fact1*i
-    return fact1
-n=int(input("enter a number "))
-a=fact(n)
-print(a)
-
-n=input("enter a string")
-rev=""
 for i in n:
-    rev=i+rev
-print(rev)
+    if i in vo:
+        count=count+1
+print("count is ",count)
+
+l1=[10,20,40,2,40,80,22]
+largest=l1[0]
+
+for i in l1:
+    if i>largest:
+        largest=i
+print("largest number is ",largest)
+
+s="programming"
+s1=""
+for i in s:
+    if i not in s1:
+        s1=s1+i
+print(s1)
+
+# # set slove question
+# a=set(s)
+# print("-".join(a))
 

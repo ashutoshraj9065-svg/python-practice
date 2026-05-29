@@ -99,36 +99,71 @@
 #     rev=i+rev
 # print(rev)
 
-n=int(input("enter a number"))
-for i in range (1,n+1):
-    if i==5:
-        continue
-    print("print i",i)
+# n=int(input("enter a number"))
+# for i in range (1,n+1):
+#     if i==5:
+#         continue
+#     print("print i",i)
 
-n=input("enter a string ")
-vo="a","e","i","o","u"
-count=0
-for i in n:
-    if i in vo:
-        count=count+1
-print("count is ",count)
+# n=input("enter a string ")
+# vo="a","e","i","o","u"
+# count=0
+# for i in n:
+#     if i in vo:
+#         count=count+1
+# print("count is ",count)
 
-l1=[10,20,40,2,40,80,22]
-largest=l1[0]
+# l1=[10,20,40,2,40,80,22]
+# largest=l1[0]
 
-for i in l1:
-    if i>largest:
-        largest=i
-print("largest number is ",largest)
+# for i in l1:
+#     if i>largest:
+#         largest=i
+# print("largest number is ",largest)
 
-s="programming"
-s1=""
-for i in s:
-    if i not in s1:
-        s1=s1+i
-print(s1)
+# s="programming"
+# s1=""
+# for i in s:
+#     if i not in s1:
+#         s1=s1+i
+# print(s1)
 
-# # set slove question
-# a=set(s)
-# print("-".join(a))
+# # # set slove question
+# # a=set(s)
+# # print("-".join(a))
+
+# l2=[10,20,30,40,5,50,]
+# largest=l2[0]
+# sec_largest=l2[0]
+# for i in l2:
+#     if i >largest:
+#         largest=i
+# for j in l2:
+#     if j > sec_largest and j<largest:
+#         sec_largest=j
+# print("second largest",sec_largest)
+
+# n=int(input("enter a number"))
+# for i in range(1,n+1):
+#     if i==7:
+#         break
+#     print(i)
+
+# s4="i love python"
+# rev=s4[::-1]
+# print(rev)
+
+l3=[1,2,3,2,3,4,4,5,78,7,8,7]
+# new=[]
+# for i in l3:
+#     if i not in new:
+#         new.append(i)
+# print(new)
+a=list(set(l3))
+print(a)
+print(type(a))
+
+ss2="i love python"
+rev="".join(ss2.split()[::-1])
+print(rev)
 

@@ -151,19 +151,20 @@
 
 # s4="i love python"
 # rev=s4[::-1]
+# # print(rev)
+
+# l3=[1,2,3,2,3,4,4,5,78,7,8,7]
+# # new=[]
+# # for i in l3:
+# #     if i not in new:
+# #         new.append(i)
+# # print(new)
+# a=list(set(l3))
+# print(a)
+# print(type(a))
+
+# ss2="i love python"
+# rev="".join(ss2.split()[::-1])
 # print(rev)
-
-l3=[1,2,3,2,3,4,4,5,78,7,8,7]
-# new=[]
-# for i in l3:
-#     if i not in new:
-#         new.append(i)
-# print(new)
-a=list(set(l3))
-print(a)
-print(type(a))
-
-ss2="i love python"
-rev="".join(ss2.split()[::-1])
-print(rev)
+print("update")
 

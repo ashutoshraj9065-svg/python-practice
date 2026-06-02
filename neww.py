@@ -168,31 +168,36 @@
 # print(rev)
 # print("update")
 
-user=int(input("enter a number"))
-for i in range(2,user+1):
-    prime=True
-    for j in range(2,i):
-        if i%j==0:
-            prime=False
-            break
-    if prime:
-        print(i, end=" ")
-n=int(input("enter a number"))
-count=0
-while n>0:
-    n=n//10
-    count=count+1
-print(count)
+# user=int(input("enter a number"))
+# for i in range(2,user+1):
+#     prime=True
+#     for j in range(2,i):
+#         if i%j==0:
+#             prime=False
+#             break
+#     if prime:
+#         print(i, end=" ")
+# n=int(input("enter a number"))
+# count=0
+# while n>0:
+#     n=n//10
+#     count=count+1
+# print(count)
 
 
-l1=[1,2,2,3,1,4,2]
-ch=[]
-for i in l1:
-    if i not in ch:
-        count=0
-        for j in l1:
-         if i==j:
-            count=count+1
-        print(i,"=",count)
-        ch.append(i)
+# l1=[1,2,2,3,1,4,2]
+# ch=[]
+# for i in l1:
+#     if i not in ch:
+#         count=0
+#         for j in l1:
+#          if i==j:
+#             count=count+1
+#         print(i,"=",count)
+#         ch.append(i)
+
+a=10
+b=20
+c=a+b
+print(c)
     

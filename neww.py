@@ -196,8 +196,8 @@
 #         print(i,"=",count)
 #         ch.append(i)
 
-a=10
-b=20
-c=a*b
-print(c)
-    
+# a=10
+# b=20
+# c=a*b
+# print(c)
+print("pthon")

@@ -195,9 +195,21 @@
 #             count=count+1
 #         print(i,"=",count)
 #         ch.append(i)
+# def name():
+#     print("welcome to python")
 
-# a=10
-# b=20
-# c=a*b
-# print(c)
-print("pthon")
+# name()
+
+# def student(name):
+#     print("hello",name)
+# student("banty")
+
+# def proof(name,age):
+#     print("my name is ",name)
+#     print("my age is ",age)
+# proof("ashu",25)
+
+# def sqa(n):
+#     return n**2
+# sqare=sqa(5)
+# print(sqare)

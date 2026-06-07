@@ -213,3 +213,8 @@
 #     return n**2
 # sqare=sqa(5)
 # print(sqare)
+# def summ(a,b):
+#     add=a+b
+#     return add
+# summ(10,20)
+

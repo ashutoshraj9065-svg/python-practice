@@ -222,4 +222,9 @@ l=[10,2,3,8,3,1]
 for i in range(len(l)-1,-1,-1):
     print(l[i],end=" ")
 
+# def data(**info):
+#     for i in info:
+#         print(i,info[i])
+# data(name="ashu", age=25, city="bhopal")
+
 

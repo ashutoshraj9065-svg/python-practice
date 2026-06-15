@@ -226,5 +226,6 @@ for i in range(len(l)-1,-1,-1):
 #     for i in info:
 #         print(i,info[i])
 # data(name="ashu", age=25, city="bhopal")
+print("hi")
 
 

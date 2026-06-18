@@ -1,0 +1,6 @@
+f=open("student.csv")
+# data=f.read()
+# print(data)
+# print(f.readline())
+# print(f.readlines())
+print(type(f.readlines()))

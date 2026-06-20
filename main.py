@@ -34,3 +34,4 @@ with open("india.csv","a")as f:
 
 with open("india.csv")as f:
     print(f.read())
+print("hello")

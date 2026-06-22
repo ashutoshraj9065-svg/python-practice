@@ -27,11 +27,40 @@
 
 
 # append use 
-name="banty"
-age=28
-with open("india.csv","a")as f:
-    print(f.write(f"{name} {age}"))
+# name="banty"
+# age=28
+# with open("india.csv","a")as f:
+#     print(f.write(f"{name} {age}"))
 
-with open("india.csv")as f:
-    print(f.read())
-print("hello")
+# with open("india.csv")as f:
+#     print(f.read())
+
+# try:
+#     a=int(input("enter a number"))
+#     b=int(input("enter b number"))
+
+#     print(a/b)
+# except ZeroDivisionError:
+#     print("zero se division nahi hoga")
+# except ValueError:
+#    print("sirf number enter karo")
+
+
+# try:
+#     f=open("abc.txt","r")
+#     print(f.read())
+# except FileNotFoundError:
+#     print("file nahi mill rhaa hai")
+
+try:
+    a=int(input("enter : "))
+    print(10/a)
+except ValueError:
+    print("number dalo")
+except ZeroDivisionError:
+    print("zero se divide nahi hoga ")
+finally:
+    print("done")
+
+
+

@@ -49,3 +49,24 @@
 
 # s1=student("ashu",138)
 # s1.result()
+
+
+class showroom:
+    def __init__(self,brand,price,model):
+        self.brand=brand
+        self.price=price
+        self.model=model
+
+    def deliver(self,name):
+        if self.price>=5000000 and self.price<8800000:
+            print(f"congratulation {name} ,your {self.brand} is ready for deliver")
+        elif self.price>=8800000:
+            print(f"congratulation {name},your primimum {self.brand}")
+        else:
+            print(f"sorry {name},plese sir ap money laiye")
+c1=showroom("audi",5200000,"xxouy")    
+c2=showroom("g-wagan",9300000,"xxuttr")
+c3=showroom("scorpio",40000,"hghgj")
+
+c1.deliver("ashu")
+        

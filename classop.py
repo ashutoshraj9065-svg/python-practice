@@ -18,20 +18,34 @@
 # print(s2.name)
 
 
-class student:
-    school="LNCT"
+# class student:
+#     school="LNCT"
 
-    def __init__(self,name,marks):
-        self.name=name
-        self.marks=marks
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
 
-s1=student("ashu",460)
-s2=student("rohan",238)
-s3=student("rahul",340)
-s4=student("banty",430)
-s5=student("badall",440)
-print(s1.school,s1.marks)
-print(s2.school,s2.name,s2.marks)
-print(s3.name)
-print(s4.name,s4.marks)
-print(s5.school,s5.name,s5.marks)
+# s1=student("ashu",460)
+# s2=student("rohan",238)
+# s3=student("rahul",340)
+# s4=student("banty",430)
+# s5=student("badall",440)
+# print(s1.school,s1.marks)
+# print(s2.school,s2.name,s2.marks)
+# print(s3.name)
+# print(s4.name,s4.marks)
+# print(s5.school,s5.name,s5.marks)
+
+# class student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks=marks
+#     def result(self):
+#         if self.marks>=260:
+#             print("pass")
+#         else:
+#             print("fail")
+
+
+# s1=student("ashu",138)
+# s1.result()

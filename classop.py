@@ -51,22 +51,46 @@
 # s1.result()
 
 
-class showroom:
-    def __init__(self,brand,price,model):
-        self.brand=brand
-        self.price=price
-        self.model=model
+# class showroom:
+#     def __init__(self,brand,price,model):
+#         self.brand=brand
+#         self.price=price
+#         self.model=model
 
-    def deliver(self,name):
-        if self.price>=5000000 and self.price<8800000:
-            print(f"congratulation {name} ,your {self.brand} is ready for deliver")
-        elif self.price>=8800000:
-            print(f"congratulation {name},your primimum {self.brand}")
-        else:
-            print(f"sorry {name},plese sir ap money laiye")
-c1=showroom("audi",5200000,"xxouy")    
-c2=showroom("g-wagan",9300000,"xxuttr")
-c3=showroom("scorpio",40000,"hghgj")
+#     def deliver(self,name):
+#         if self.price>=5000000 and self.price<8800000:
+#             print(f"congratulation {name} ,your {self.brand} is ready for deliver")
+#         elif self.price>=8800000:
+#             print(f"congratulation {name},your primimum {self.brand}")
+#         else:
+#             print(f"sorry {name},plese sir ap money laiye")
+# c1=showroom("audi",5200000,"xxouy")    
+# c2=showroom("g-wagan",9300000,"xxuttr")
+# c3=showroom("scorpio",40000,"hghgj")
 
-c1.deliver("ashu")
+# c1.deliver("ashu")
+
+
+# class vechile:
+#     def __init__(self,start):
+#         self.start=start
+
+# class car(vechile):
+#     pass
+
+# c1=car("vechile start ho gai")
+# print(c1.start)
+
+
+class school:
+    def student(self):
+        print("student data")
+class teacher(school):
+    pass
+c2=teacher()
+c2.student()
+
+
+
+    
         

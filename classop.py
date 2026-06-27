@@ -82,13 +82,30 @@
 # print(c1.start)
 
 
-class school:
-    def student(self):
-        print("student data")
-class teacher(school):
+# class school:
+#     def student(self):
+#         print("student data")
+# class teacher(school):
+#     pass
+# c2=teacher()
+# c2.student()
+
+class animal:
+    def eat(self):
+        print("eating animal")
+
+class dog(animal):
+    def lunch(self):
+        print("dog lunch")
+class cat(animal):
     pass
-c2=teacher()
-c2.student()
+
+d1=dog()
+print(d1.eat())
+print(d1.lunch())
+c1=cat()
+print(c1.eat())
+
 
 
 

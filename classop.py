@@ -90,23 +90,47 @@
 # c2=teacher()
 # c2.student()
 
-class animal:
-    def eat(self):
-        print("eating animal")
+# class animal:
+#     def eat(self):
+#         print("eating animal")
 
-class dog(animal):
-    def lunch(self):
-        print("dog lunch")
-class cat(animal):
-    pass
+# class dog(animal):
+#     def lunch(self):
+#         print("dog lunch")
+# class cat(animal):
+#     pass
 
-d1=dog()
-print(d1.eat())
-print(d1.lunch())
-c1=cat()
-print(c1.eat())
+# d1=dog()
+# print(d1.eat())
+# print(d1.lunch())
+# c1=cat()
+# print(c1.eat())
+
+class bank:
+    def __init__(self):
+         self.balance=10000
+   
+    def show_balance(self):
+         print(self.balance)
+
+b1=bank()
+b1.show_balance()
+
+#multiple inheritence
+
+class father:
+     def __init__(self,name):
+          self.name=name
 
 
+class child(father):
+     def __init__(self,name,age):
+          super().__init__(name)
+          self.age=age
+
+b1=child("bhpendrakumar",52)
+print(b1.name)
+print(b1.age)
 
 
     

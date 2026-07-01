@@ -106,31 +106,33 @@
 # c1=cat()
 # print(c1.eat())
 
-class bank:
-    def __init__(self):
-         self.balance=10000
+# class bank:
+#     def __init__(self):
+#          self.balance=10000
    
-    def show_balance(self):
-         print(self.balance)
+#     def show_balance(self):
+#          print(self.balance)
 
-b1=bank()
-b1.show_balance()
+# b1=bank()
+# b1.show_balance()
 
-#multiple inheritence
+# #multiple inheritence
 
-class father:
-     def __init__(self,name):
-          self.name=name
+# class father:
+#      def __init__(self,name):
+#           self.name=name
 
 
-class child(father):
-     def __init__(self,name,age):
-          super().__init__(name)
-          self.age=age
+# class child(father):
+#      def __init__(self,name,age):
+#           super().__init__(name)
+#           self.age=age
 
-b1=child("bhpendrakumar",52)
-print(b1.name)
-print(b1.age)
+# b1=child("bhpendrakumar",52)
+# print(b1.name)
+# print(b1.age)
+
+print("hello")
 
 
     

@@ -12,3 +12,4 @@
 n=input("enter a number")
 ans=n[4 :-7:-1]
 print(ans)
+print("welcome")

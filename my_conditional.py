@@ -29,30 +29,52 @@
 
 # square area triangle area reactangle are lip year home work
 
-# lip year question
+# # lip year question
 
-# year=int(input("enter a value"))
-# if (year%4==0 and year%100!=0 or year%400==0):
-#     print(f"given number is {year} lip year")
-# else:
-#     print(f"given number is {year} not lip year")
-# loop
+# # year=int(input("enter a value"))
+# # if (year%4==0 and year%100!=0 or year%400==0):
+# #     print(f"given number is {year} lip year")
+# # else:
+# #     print(f"given number is {year} not lip year")
+# # loop
 
 
-#while question karna hai natural nu horigental print
-# and coma nahi lagana last n number pe 
+# #while question karna hai natural nu horigental print
+# # and coma nahi lagana last n number pe 
 
-# while :
-#     print("hello")
+# # while :
+# #     print("hello")
 
-n=int(input("enter a number"))
-i=1
-while i<=n:
-  if(i<=n-1):
-    print(i,end=",")
-  else:
-    print(i, end="=")
-  i=i+1 
+# n=int(input("enter a number"))
+# i=1
+# while i<=n:
+#   if(i<=n-1):
+#     print(i,end=",")
+#   else:
+#     print(i)
+#   i=i+1 
+
+def birthdayCakeCandles(candles):
+    largest = candles[0]
+    count = 0
+
+    for i in candles:
+        if i > largest:
+            largest = i
+            count = 1
+        elif i == largest:
+            count += 1
+
+    return count
+
+
+n = int(input())
+candles = list(map(int, input().split()))
+
+answer = birthdayCakeCandles(candles)
+
+print(answer)
+
 
 
 

@@ -54,26 +54,31 @@
 #     print(i)
 #   i=i+1 
 
-def birthdayCakeCandles(candles):
-    largest = candles[0]
-    count = 0
+# def birthdayCakeCandles(candles):
+#     largest = candles[0]
+#     count = 0
 
-    for i in candles:
-        if i > largest:
-            largest = i
-            count = 1
-        elif i == largest:
-            count += 1
+#     for i in candles:
+#         if i > largest:
+#             largest = i
+#             count = 1
+#         elif i == largest:
+#             count += 1
 
-    return count
+#     return count
 
 
-n = int(input())
-candles = list(map(int, input().split()))
+# n = int(input())
+# candles = list(map(int, input().split()))
 
-answer = birthdayCakeCandles(candles)
+# answer = birthdayCakeCandles(candles)
 
-print(answer)
+# print(answer)
+
+l=[2,4,5,7] 
+l
+t=list(map(lambda x:x*x,l))
+print(t)
 
 
 

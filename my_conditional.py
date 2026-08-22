@@ -75,10 +75,14 @@
 
 # print(answer)
 
-l=[2,4,5,7] 
-l
-t=list(map(lambda x:x*x,l))
-print(t)
+# l=[2,4,5,7] 
+# l
+# t=list(map(lambda x:x*x,l))
+# print(t)
+
+l=[1,2,3,4]
+ash=list(map(lambda x:"even" if x%2==0 else "odd",l))
+print(ash)
 
 
 

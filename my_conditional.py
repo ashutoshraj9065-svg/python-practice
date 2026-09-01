@@ -85,5 +85,7 @@ ash=list(map(lambda x:"even" if x%2==0 else "odd",l))
 print(ash)
 print("practise everyday")
 
+print("start dsa")
+
 
 
